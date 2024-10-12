@@ -1,0 +1,17 @@
+cookie:
+  expiry_days: 30
+  key: random_signature_key
+  name: random_cookie_name
+credentials:
+  usernames:
+    jayn:
+      email: jayvnadkarni@gmail.com
+      name: Jay Nadkarni
+      password: abc
+    snann:
+      email: sahilnannaware@gmail.com
+      name: Sahil Nannaware
+      password: def
+preauthorized:
+  emails:
+    - jayvnadkarni@gmail.com

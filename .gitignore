@@ -1,0 +1,8 @@
+data/tweets_sentiment_data.csv
+Notebooks/best_model_state.bin
+nlp/
+*.pyc
+__pycache__/
+streamlit/secrets.toml
+.env
+upload_to_database.py

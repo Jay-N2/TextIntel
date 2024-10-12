@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>User Profile</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+  <h1>Welcome to Your Profile</h1>
+  <p>Hello, <span id="user-name"></span>!</p>
+  <a href="/">Logout</a>
+  <a href="http://localhost:8501">Go to localhost:8501</a>
+  <script>
+    // You can use JavaScript to display user information if needed
+    const userName = document.getElementById('user-name');
+    const params = new URLSearchParams(window.location.search);
+    userName.textContent = params.get('user') || 'User';
+    //userName.textContent = params.get('user');
+  </script>
+</body>
+
+</html>
