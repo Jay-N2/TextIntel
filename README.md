@@ -2,6 +2,10 @@
 
 This is an application that automates the process of text analysis with a user friendly GUI. :iphone: It has been implemented using Python and deployed with the Streamlit package. Here's a look at the application page.
 
+<p style="align:center">
+    <img src="images/home.png">
+</p>
+
 ### Text Analytics :bar_chart:
 
 Text analytics is the automated process of translating large volumes of unstructured text into quantitative data to uncover insights, trends, and patterns. Combined with data visualization tools, this technique enables companies to understand the story behind the numbers and make better decisions. It is an artificial intelligence (AI) technology that uses natural language processing (NLP) to transform the unstructured text in documents and databases into normalized, structured data suitable for analysis or to drive machine learning (ML) algorithms. [1]
